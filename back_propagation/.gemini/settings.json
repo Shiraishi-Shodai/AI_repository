@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"]
+    }
+  },
+  "fileFiltering": {
+    "respectGitIgnore": true,
+    "enableRecursiveFileSearch": false
+  }
+}
